@@ -2,7 +2,7 @@
 
 mkdir flux kustomize helm
 
-cat >>  /README.md <<EOF
+cat >>  README.md <<EOF
 ## Deployment Repo
 
 This repository contains code to deploy to kubernetes. 
