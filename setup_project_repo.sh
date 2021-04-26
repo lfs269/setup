@@ -147,9 +147,7 @@ resources:
 - ../base
 EOF
 
-cd ../kustomize
 
-mkdir base staging production 
 
 cat > base/README.md <<EOF
 ## Kubernetes Deployment Manifests
