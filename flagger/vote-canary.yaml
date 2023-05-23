@@ -65,4 +65,5 @@ spec:
         url: http://flagger-loadtester.flagger-system/
         timeout: 5s
         metadata:
-          cmd: "hey -z 30s -q 10 -c 2 http://vote-canary.instavote/"
+          #replace xx.xx.xx.xx below with External/Cluster IP of ingress
+          cmd: "hey -z 30s -q 10 -c 2 -host vote.example.com http://xx.xx.xx.xx" 
